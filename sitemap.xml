@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://aquapeluqueriasantfeliu.com/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://aquapeluqueriasantfeliu.com/img/salon-peluqueria-sant-feliu.webp</image:loc>
+      <image:title>Peluquería y estética Aqua en Sant Feliu de Llobregat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://aquapeluqueriasantfeliu.com/img/interior-salon-aqua.webp</image:loc>
+      <image:title>Interior del salón Aqua Perruquers</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://aquapeluqueriasantfeliu.com/img/depilacion-laser-sant-feliu.webp</image:loc>
+      <image:title>Depilación láser en Sant Feliu de Llobregat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://aquapeluqueriasantfeliu.com/img/hifem-sculpt-abdomen.webp</image:loc>
+      <image:title>Tratamiento HifemSculpt en Sant Feliu de Llobregat</image:title>
+    </image:image>
+  </url>
+</urlset>
