@@ -2,9 +2,11 @@
 :root {
   --cyan: #06b6d4;
   --cyan-dark: #0891b2;
+  --cyan-text: #0e7490;
   --blue: #2563eb;
   --grad: linear-gradient(90deg, #06b6d4, #2563eb);
-  --grad-br: linear-gradient(135deg, #06b6d4, #2563eb);
+  --grad-btn: linear-gradient(90deg, #0e7490, #1d4ed8);
+  --grad-br: linear-gradient(135deg, #0891b2, #1d4ed8);
   --gray-50: #f9fafb;
   --gray-100: #f3f4f6;
   --gray-300: #d1d5db;
@@ -27,7 +29,7 @@ body {
   background: #fff;
 }
 img { max-width: 100%; height: auto; display: block; }
-a { color: var(--cyan-dark); }
+a { color: var(--cyan-text); }
 
 .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
 .container-narrow { max-width: 800px; }
@@ -53,8 +55,8 @@ a { color: var(--cyan-dark); }
   transition: transform .25s, box-shadow .25s;
 }
 .btn:hover { transform: scale(1.04); box-shadow: var(--shadow-lg); }
-.btn-primary { background: var(--grad); color: #fff; }
-.btn-light { background: #fff; color: var(--cyan-dark); font-weight: 700; }
+.btn-primary { background: var(--grad-btn); color: #fff; }
+.btn-light { background: #fff; color: #155e75; font-weight: 700; }
 .btn-lg { padding: 1rem 2rem; font-size: 1.1rem; }
 .btn-block { display: block; width: 100%; }
 
@@ -182,8 +184,8 @@ a { color: var(--cyan-dark); }
   margin: 0; background: #fff; border-radius: var(--radius); padding: 1.75rem; box-shadow: var(--shadow);
 }
 .review p { font-style: italic; color: var(--gray-700); }
-.review footer { color: var(--gray-600); font-size: .9rem; }
-.review time { color: #9ca3af; margin-left: .4rem; }
+.review footer { color: var(--gray-700); font-size: .9rem; }
+.review time { color: #6b7280; margin-left: .4rem; }
 .reviews-cta { text-align: center; margin-top: 3rem; font-size: 1.1rem; }
 
 /* ===== FAQ ===== */
@@ -258,7 +260,7 @@ nav.footer-col a { display: block; }
 .legal-card { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); padding: 2.5rem; }
 .legal-card h1 { color: var(--gray-800); margin-top: 0; }
 .legal-card h2 { color: var(--gray-800); font-size: 1.4rem; margin-top: 2rem; }
-.back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--cyan-dark); text-decoration: none; font-weight: 500; }
+.back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--cyan-text); text-decoration: none; font-weight: 500; }
 .back-link:hover { text-decoration: underline; }
 
 @media (prefers-reduced-motion: reduce) {
