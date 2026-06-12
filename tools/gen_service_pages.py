@@ -45,6 +45,10 @@ PAGES = {
    ("¿Cuántas sesiones necesitas?",
     "<p>Depende de la zona, del tipo de vello y de tu piel. La mayoría de clientas notan una reducción clara a partir de la tercera sesión.</p>"
     "<p>Lo habitual son entre 6 y 10 sesiones, espaciadas varias semanas. En tu primera visita te daremos una estimación personalizada gratuita.</p>"),
+   ("Ventajas frente a la cera y la cuchilla",
+    "<p>La cera y la cuchilla obligan a repetir cada pocas semanas. El láser actúa sobre la raíz y reduce el vello de forma progresiva y duradera.</p>"
+    "<p>Además evita los problemas habituales de otros métodos: foliculitis, vello enquistado, irritación y manchas por roce. La piel queda uniforme y suave.</p>"
+    "<p>A medio plazo también sale a cuenta: cada sesión te acerca a olvidarte de la depilación, en lugar de volver a empezar cada mes.</p>"),
    ("Antes y después de cada sesión: cuidados",
     "<ul><li>Evita el sol y los autobronceadores los días previos.</li>"
     "<li>Acude con la zona rasurada, no con cera ni pinzas.</li>"
@@ -58,6 +62,10 @@ PAGES = {
     "Valoramos cada caso en la consulta previa gratuita. La tecnología actual permite tratar la mayoría de fototipos con seguridad."),
    ("¿Puedo hacerme láser en verano?",
     "Sí, con precauciones. Hay que evitar la exposición solar directa en la zona tratada antes y después de cada sesión."),
+   ("¿El resultado de la depilación láser es para siempre?",
+    "La reducción del vello es duradera y muy notable. Algún vello fino puede reaparecer con el tiempo por cambios hormonales; se mantiene con sesiones puntuales de recuerdo."),
+   ("¿Qué beneficios tiene frente a la fotodepilación IPL?",
+    "El láser concentra la energía en una sola longitud de onda. Llega mejor a la raíz del vello, necesita menos sesiones y trata más tipos de piel con seguridad."),
   ],
   rel=["higiene-facial", "presoterapia", "maderoterapia"],
  ),
@@ -71,12 +79,14 @@ PAGES = {
   secciones=[
    ("Qué es HifemSculpt y cómo funciona",
     "<p>El equipo emite ondas electromagnéticas focalizadas de alta intensidad. Provocan contracciones musculares profundas, imposibles de lograr entrenando.</p>"
-    "<p>Una sesión de 30 minutos equivale a unas 30.000 contracciones. El músculo se fortalece y el cuerpo consume la grasa de la zona.</p>"),
+    "<p>Una sesión de 30 minutos equivale a unas 30.000 contracciones. El músculo se fortalece y el cuerpo consume la grasa de la zona.</p>"
+    "<p>Durante la sesión solo tienes que tumbarte. Colocamos el aplicador sobre la zona y regulamos la intensidad contigo, de menos a más. Al terminar puedes seguir con tu día con normalidad.</p>"),
    ("Zonas tratables: abdomen, glúteos y piernas",
     "<p>Las zonas más demandadas son el abdomen y los glúteos. También tratamos muslos y otras zonas con grasa localizada.</p>"
     "<p>En la primera consulta definimos contigo el objetivo: definir, tonificar o reducir volumen.</p>"),
    ("Resultados: qué esperar y en cuánto tiempo",
-    "<p>Muchas personas notan firmeza desde las primeras sesiones. Los resultados visibles llegan normalmente tras un ciclo de 4 a 6 sesiones.</p>"
+    "<p>Muchas personas notan firmeza desde las primeras sesiones. El ritmo de los resultados varía según cada cuerpo, la zona tratada y los hábitos de cada persona.</p>"
+    "<p>En la primera consulta te orientamos de forma realista sobre qué esperar en tu caso concreto y diseñamos el ciclo de sesiones adecuado.</p>"
     "<p>No requiere tiempo de recuperación. Puedes hacer vida normal inmediatamente después.</p>"),
    ("¿Para quién está indicado (y para quién no)?",
     "<p>Está indicado para quien quiere tonificar y perder grasa localizada sin pasar por quirófano. Es un excelente complemento al ejercicio.</p>"
@@ -89,8 +99,10 @@ PAGES = {
     "No lo sustituye, lo complementa. Logra contracciones más intensas que el ejercicio voluntario, pero unos hábitos activos mejoran y mantienen el resultado."),
    ("¿Cuánto dura una sesión?",
     "Unos 30 minutos por zona. Llegas, te tumbas y el equipo trabaja. Sin dolor y sin recuperación posterior."),
-   ("¿Cuándo se ven los resultados?",
-    "La firmeza se nota pronto. El cambio visible suele apreciarse tras 4-6 sesiones, según la persona y la zona."),
+   ("¿Qué se siente durante la sesión?",
+    "Notarás contracciones musculares intensas pero indoloras, como un entrenamiento muy concentrado. No deja agujetas incapacitantes ni marcas."),
+   ("¿Qué beneficios aporta frente a otros tratamientos corporales?",
+    "Es el único que trabaja músculo y grasa a la vez. Tonifica en profundidad mientras reduce volumen, sin agujas, sin cirugía y sin parar tu rutina."),
   ],
   rel=["maderoterapia", "presoterapia", "masaje-linfatico-drenante"],
  ),
@@ -107,13 +119,18 @@ PAGES = {
     "<li>Limpieza profunda y exfoliación.</li>"
     "<li>Extracción de puntos negros e impurezas.</li>"
     "<li>Mascarilla específica para tu piel.</li>"
-    "<li>Hidratación final y protección.</li></ol>"),
+    "<li>Hidratación final y protección.</li></ol>"
+    "<p>La sesión completa dura entre 60 y 75 minutos. Cada paso usa productos profesionales elegidos según tu diagnóstico: no aplicamos el mismo protocolo a todo el mundo.</p>"
+    "<p>La extracción se realiza tras ablandar el poro con vapor ozono, de forma controlada y sin agredir la piel.</p>"),
    ("Beneficios para cada tipo de piel",
     "<p>En pieles grasas reduce brillos y poros obstruidos. En pieles secas aporta hidratación profunda. En pieles apagadas devuelve la luminosidad.</p>"
     "<p>También prepara la piel para otros tratamientos, que penetran mejor tras una buena limpieza.</p>"),
    ("Cada cuánto conviene hacerse una limpieza facial",
     "<p>Como norma general, cada 4 a 8 semanas. Depende de tu tipo de piel, tu rutina y la época del año.</p>"
     "<p>Te recomendaremos la frecuencia ideal en tu primera visita.</p>"),
+   ("Qué notarás después de la sesión",
+    "<p>La piel queda limpia, jugosa y descongestionada desde el primer día. El tono se ve más uniforme y el maquillaje, cuando vuelvas a usarlo, asienta mucho mejor.</p>"
+    "<p>Con sesiones regulares se reducen los puntos negros recurrentes y los brotes leves, y la piel mantiene un aspecto cuidado de forma estable.</p>"),
    ("Combínala con punta de diamante",
     "<p>La microdermoabrasión con <a href=\"/punta-de-diamante\">punta de diamante</a> multiplica el efecto renovador. Elimina células muertas y atenúa marcas y manchas. Pregúntanos por el tratamiento combinado.</p>"),
   ],
@@ -122,6 +139,10 @@ PAGES = {
     "Entre 60 y 75 minutos, según las necesidades de tu piel."),
    ("¿Es adecuada para pieles sensibles?",
     "Sí. Ajustamos los productos y la intensidad de cada paso. Avísanos si tienes alguna alergia o tratamiento dermatológico activo."),
+   ("¿Qué beneficios notaré desde la primera sesión?",
+    "Piel más limpia, suave y luminosa al instante, y poros visiblemente descongestionados. Con constancia, el efecto se mantiene y mejora."),
+   ("¿Elimina los puntos negros?",
+    "Sí, la extracción profesional retira los puntos negros existentes. Las sesiones periódicas evitan que vuelvan a acumularse."),
    ("¿Puedo maquillarme después?",
     "Mejor espera unas horas. La piel queda limpia y receptiva; déjala respirar el resto del día."),
   ],
@@ -136,7 +157,11 @@ PAGES = {
   alt="Coloración y mechas balayage en Aqua Perruquers, Sant Feliu",
   secciones=[
    ("Técnicas: mechas, balayage, babylights y más",
-    "<p>Trabajamos mechas clásicas, balayage, babylights y coloraciones completas. Cada técnica aporta un efecto distinto: contraste, luz natural o profundidad.</p>"
+    "<p>Trabajamos mechas clásicas, balayage, babylights y coloraciones completas. Cada técnica aporta un efecto distinto.</p>"
+    "<ul><li><strong>Mechas clásicas:</strong> contraste definido y luminosidad uniforme.</li>"
+    "<li><strong>Balayage:</strong> degradado natural pintado a mano, de mantenimiento cómodo.</li>"
+    "<li><strong>Babylights:</strong> reflejos muy finos, efecto sol de aspecto juvenil.</li>"
+    "<li><strong>Color completo:</strong> cobertura total, ideal para canas o cambios de tono.</li></ul>"
     "<p>Te asesoramos sin compromiso sobre cuál encaja mejor con tu cabello y tu mantenimiento.</p>"),
    ("Coloración que respeta tu cabello",
     "<p>Usamos productos profesionales con tratamientos protectores. El objetivo es un color bonito y un cabello sano.</p>"
@@ -156,6 +181,10 @@ PAGES = {
     "Las mechas se trabajan con un patrón definido. El balayage se pinta a mano alzada para un degradado más natural y un mantenimiento más cómodo."),
    ("¿El color daña el cabello?",
     "Con productos profesionales y protección adecuada, el daño es mínimo. Valoramos siempre el estado de tu cabello antes de proponerte una técnica."),
+   ("¿Cada cuánto se retoca un balayage?",
+    "Es su gran ventaja: al no tener raíz marcada, aguanta de 3 a 6 meses con buen aspecto. Las mechas clásicas suelen retocarse antes."),
+   ("¿Podéis corregir un color que no me gusta?",
+    "Sí. Analizamos el color actual y el estado del cabello, y planificamos la corrección en una o varias fases para lograrlo sin estropearlo."),
   ],
   rel=["corte-peinado", "tratamientos-capilares"],
  ),
@@ -169,20 +198,24 @@ PAGES = {
   secciones=[
    ("Corte personalizado: estudiamos tu rostro y estilo",
     "<p>Antes de coger las tijeras, te asesoramos. Valoramos la forma de tu rostro, la textura de tu cabello y el tiempo que dedicas a peinarte.</p>"
-    "<p>El resultado: un corte que funciona en el salón y también en casa.</p>"),
+    "<p>El resultado: un corte que funciona en el salón y también en casa.</p>"
+    "<p>Trabajamos todo tipo de cabello: liso, ondulado, rizado, fino o con mucha densidad. Cada textura pide una técnica distinta, y elegirla bien marca la diferencia entre un corte que crece bonito y uno que pierde la forma en dos semanas.</p>"),
    ("Peinados para eventos y ocasiones especiales",
     "<p>Bodas, celebraciones y eventos. Recogidos, semirrecogidos y ondas con acabado duradero.</p>"
-    "<p>Si lo necesitas, hacemos una prueba previa para llegar al día señalado sin sorpresas.</p>"),
+    "<p>Si lo necesitas, hacemos una prueba previa para llegar al día señalado sin sorpresas.</p>"
+    "<p>El acabado se adapta al momento: ondas suaves para un look natural, pulido espejo para un evento formal o textura despeinada con efecto duradero.</p>"),
    ("Nuestros trabajos",
     "<p>Mira ejemplos reales en la <a href=\"/#galeria\">galería</a> y en nuestro <a href=\"https://www.instagram.com/aqua_perruquers/\" target=\"_blank\" rel=\"noopener noreferrer\">Instagram</a>.</p>"),
    ("Precios",
     "<p>Las tarifas dependen del servicio: corte, corte y peinado, o peinado de evento. Pídenos precios por WhatsApp y reserva tu hora en un minuto.</p>"),
   ],
   faqs=[
-   ("¿Atendéis sin cita previa?",
-    "Trabajamos con cita para dedicarte el tiempo que mereces. Reservar por WhatsApp es rápido y te confirmamos al momento."),
-   ("¿Hacéis cortes de hombre?",
-    "Sí. Corte y arreglo masculino con el mismo asesoramiento personalizado."),
+   ("¿Cómo sé qué corte me favorece?",
+    "Lo estudiamos contigo antes de empezar. Valoramos la forma de tu rostro, la textura del cabello y tu estilo de vida, y te proponemos opciones realistas."),
+   ("¿Cuánto dura un peinado de evento?",
+    "Trabajamos con técnicas y productos de fijación profesional para que el peinado aguante toda la celebración en perfecto estado."),
+   ("¿Qué beneficio tiene el asesoramiento de imagen?",
+    "Evitas cortes que no van contigo. Sales con un estilo que podrás reproducir en casa con facilidad y que realza tus facciones."),
   ],
   rel=["color-mechas", "tratamientos-capilares"],
  ),
@@ -196,7 +229,8 @@ PAGES = {
   secciones=[
    ("Diagnóstico capilar: el primer paso",
     "<p>Cada cabello es distinto. Analizamos el estado de tu cuero cabelludo y de tu fibra capilar antes de recomendarte nada.</p>"
-    "<p>Con el diagnóstico claro, elegimos el tratamiento y la pauta adecuados.</p>"),
+    "<p>Con el diagnóstico claro, elegimos el tratamiento y la pauta adecuados.</p>"
+    "<p>Este paso evita gastar en productos que no necesitas. Un cabello deshidratado y uno dañado por química se ven parecidos, pero se tratan de forma distinta.</p>"),
    ("Hidratación y nutrición profunda",
     "<p>Para cabellos secos o apagados. Aportamos agua y nutrientes a la fibra capilar. El resultado es un cabello suave, elástico y con brillo.</p>"),
    ("Tratamientos reparadores y anticaída",
@@ -209,6 +243,10 @@ PAGES = {
     "Depende del tratamiento y del estado del cabello. Lo habitual es una pauta inicial de choque y luego mantenimiento mensual."),
    ("¿Sirven si me tiño el pelo?",
     "Sí, y son muy recomendables. Reparan la fibra y ayudan a que el color dure más bonito."),
+   ("¿Qué beneficios notaré tras la primera sesión?",
+    "Cabello más suave, manejable y con brillo desde el primer lavado. Los tratamientos de fondo, como el anticaída, muestran su efecto con la constancia."),
+   ("¿Cómo sé qué tratamiento necesita mi cabello?",
+    "Con el diagnóstico capilar que hacemos en el salón. Distingue entre falta de hidratación, falta de nutrición o daño estructural, que se tratan de forma diferente."),
   ],
   rel=["color-mechas", "corte-peinado"],
  ),
@@ -225,7 +263,8 @@ PAGES = {
     "<ul><li>Reduce la apariencia de la celulitis.</li><li>Ayuda a moldear cintura, piernas y glúteos.</li><li>Activa la circulación y el drenaje.</li><li>Relaja la musculatura.</li></ul>"),
    ("Cómo es una sesión en Aqua",
     "<p>La sesión dura unos 45-60 minutos. Adaptamos la intensidad a tu sensibilidad y a la zona tratada.</p>"
-    "<p>Es un masaje vigoroso pero agradable. Saldrás con sensación de ligereza.</p>"),
+    "<p>Es un masaje vigoroso pero agradable. Saldrás con sensación de ligereza.</p>"
+    "<p>Empezamos siempre con movimientos de calentamiento y drenaje. Después trabajamos cada zona con el utensilio adecuado: rodillo para activar, copa sueca para moldear y tabla para alisar el tejido.</p>"),
    ("¿Cuántas sesiones se recomiendan?",
     "<p>Para notar cambios visibles se recomienda un ciclo de 8 a 10 sesiones, una o dos por semana. Después, mantenimiento mensual.</p>"),
    ("Combínala con presoterapia o masaje drenante",
@@ -236,6 +275,10 @@ PAGES = {
     "Es un masaje intenso, pero regulamos la presión contigo. No debe resultar doloroso."),
    ("¿Cuándo se notan los resultados?",
     "La piel mejora desde las primeras sesiones. El efecto moldeador se aprecia al completar el ciclo recomendado."),
+   ("¿Qué beneficios tiene frente a un masaje anticelulítico manual?",
+    "Los utensilios de madera permiten trabajar el tejido con más profundidad y precisión que las manos, intensificando el efecto drenante y moldeador."),
+   ("¿En qué zonas se puede aplicar?",
+    "Principalmente piernas, glúteos, abdomen y brazos. Adaptamos los utensilios y la presión a cada zona del cuerpo."),
   ],
   rel=["presoterapia", "masaje-linfatico-drenante", "hifemsculpt"],
  ),
@@ -249,7 +292,8 @@ PAGES = {
   secciones=[
    ("Cómo funciona la presoterapia",
     "<p>Te colocamos unas botas y una faja neumáticas. El equipo infla y desinfla las cámaras de aire en oleadas, de los pies hacia arriba.</p>"
-    "<p>Este movimiento empuja el líquido retenido hacia el sistema linfático, que lo elimina de forma natural.</p>"),
+    "<p>Este movimiento empuja el líquido retenido hacia el sistema linfático, que lo elimina de forma natural.</p>"
+    "<p>Es un tratamiento totalmente pasivo y muy relajante. Muchas clientas lo describen como un masaje de piernas continuo que deja una ligereza inmediata al levantarse de la camilla.</p>"),
    ("Beneficios: piernas cansadas, retención y recuperación",
     "<ul><li>Alivia las piernas cansadas e hinchadas.</li>"
     "<li>Reduce la retención de líquidos.</li>"
@@ -265,6 +309,10 @@ PAGES = {
     "Una presión agradable que sube por las piernas, como un masaje continuo. Muchas clientas se relajan hasta dormirse."),
    ("¿Hay contraindicaciones?",
     "No se recomienda en embarazo, trombosis o insuficiencias graves. Si tienes dudas médicas, consúltanos antes de reservar."),
+   ("¿Qué beneficios notaré tras la primera sesión?",
+    "Piernas visiblemente menos hinchadas y una sensación inmediata de ligereza. Con sesiones regulares mejora también la circulación de retorno."),
+   ("¿Se puede combinar con otros tratamientos corporales?",
+    "Sí, y es lo más eficaz. Combinada con maderoterapia o drenaje linfático, potencia la eliminación de líquidos y el efecto anticelulítico."),
   ],
   rel=["maderoterapia", "masaje-linfatico-drenante", "hifemsculpt"],
  ),
@@ -278,7 +326,8 @@ PAGES = {
   secciones=[
    ("Qué es el drenaje linfático manual",
     "<p>Es una técnica de masaje con movimientos suaves y precisos. Sigue el recorrido del sistema linfático para estimular la eliminación de líquidos.</p>"
-    "<p>A diferencia de otros masajes, no busca presionar el músculo sino movilizar la linfa.</p>"),
+    "<p>A diferencia de otros masajes, no busca presionar el músculo sino movilizar la linfa.</p>"
+    "<p>El sistema linfático no tiene bomba propia, como sí la tiene la sangre con el corazón. Por eso, cuando se satura, aparecen hinchazón y pesadez. El drenaje manual lo ayuda a circular de nuevo.</p>"),
    ("Beneficios y para quién está indicado",
     "<ul><li>Reduce la hinchazón y la retención de líquidos.</li>"
     "<li>Activa la circulación y mejora la piel de naranja.</li>"
@@ -294,6 +343,8 @@ PAGES = {
     "Puede realizarse semanalmente sin problema. Te recomendaremos la pauta según tu objetivo."),
    ("¿Hacéis drenaje post-operatorio?",
     "Consúltanos tu caso concreto por WhatsApp. Valoramos cada situación de forma individual y siempre con indicación de tu médico."),
+   ("¿Qué beneficios notaré tras la primera sesión?",
+    "Menos hinchazón, piernas y abdomen más ligeros y una relajación profunda. Es habitual notar también un descanso nocturno mejor."),
   ],
   rel=["presoterapia", "maderoterapia"],
  ),
@@ -315,30 +366,24 @@ PAGES = {
     "<li>Aporta luminosidad inmediata.</li></ul>"),
    ("Cómo es la sesión y cuidados posteriores",
     "<p>La sesión dura unos 45 minutos. Después, la piel puede quedar levemente rosada unas horas.</p>"
-    "<p>Es imprescindible usar protección solar los días posteriores e hidratar bien la piel.</p>"),
+    "<p>Es imprescindible usar protección solar los días posteriores e hidratar bien la piel.</p>"
+    "<p>Trabajamos con cabezales de distinto grano según la zona y la sensibilidad. La exfoliación es gradual: controlamos la profundidad en todo momento para renovar sin irritar.</p>"),
    ("Combínala con higiene facial",
     "<p>El combo perfecto: una <a href=\"/higiene-facial\">higiene facial profunda</a> seguida de punta de diamante. Limpieza, renovación y luminosidad en una sola visita.</p>"),
   ],
   faqs=[
    ("¿Cuántas sesiones se recomiendan?",
-    "Para renovar la piel, un ciclo de 4 a 6 sesiones espaciadas dos o tres semanas. Para luminosidad puntual, una sesión ya se nota."),
+    "Para luminosidad puntual, una sesión ya se nota. Para renovar la piel en profundidad te propondremos un ciclo personalizado según su estado."),
    ("¿Puedo hacerla si tengo acné activo?",
     "Con brotes activos importantes no se recomienda. Valoramos tu piel antes y te proponemos la alternativa adecuada."),
+   ("¿Duele la microdermoabrasión?",
+    "No. Se nota un ligero arrastre sobre la piel, similar a una exfoliación intensa. No requiere anestesia ni deja la piel dañada."),
+   ("¿Qué beneficios tiene frente a un peeling químico?",
+    "Es mecánica y progresiva: controlamos la intensidad al momento y la piel se recupera antes. Es una buena opción para quien prefiere evitar ácidos."),
   ],
   rel=["higiene-facial", "depilacion-laser"],
  ),
 }
-
-
-# FAQ común añadida a todas las páginas (refuerza señales locales)
-FAQ_COMUNES = [
-    ("¿Dónde estáis y cómo reservo?",
-     "Estamos en Rambla Marquesa de Castellbell, 63, en pleno centro de Sant Feliu de Llobregat. "
-     "Puedes reservar por WhatsApp o por teléfono en el 692 03 99 50. Te confirmamos la cita al momento."),
-    ("¿Qué horario tenéis?",
-     "Abrimos de martes a viernes de 10:00 a 19:00 y los sábados de 10:00 a 14:00. "
-     "Domingos y lunes cerramos."),
-]
 
 
 def seccion_por_que_aqua(nombre):
@@ -406,7 +451,7 @@ def render(slug, p):
         f'        <section>\n          <h2>{h2}</h2>\n          {cuerpo}\n        </section>'
         for h2, cuerpo in secciones)
 
-    faqs = list(p["faqs"]) + FAQ_COMUNES
+    faqs = list(p["faqs"])
     faqs_html = "\n".join(
         f'        <details class="faq-item">\n          <summary>{q}</summary>\n          <p>{a}</p>\n        </details>'
         for q, a in faqs)
