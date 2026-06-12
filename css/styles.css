@@ -267,3 +267,40 @@ nav.footer-col a { display: block; }
   html { scroll-behavior: auto; }
   .btn, .card, .feature, .photo-grid img, .whatsapp-fab { transition: none; }
 }
+
+/* ===== Desplegable de tratamientos ===== */
+.nav-drop { position: relative; }
+.nav-drop > a { color: var(--gray-700); text-decoration: none; font-weight: 500; }
+.nav-drop > a:hover { color: var(--cyan); }
+.drop-menu {
+  display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+  background: #fff; border-radius: 1rem; box-shadow: var(--shadow-lg);
+  padding: .6rem 0; min-width: 250px; z-index: 200;
+}
+.nav-drop:hover .drop-menu, .nav-drop:focus-within .drop-menu { display: block; }
+.drop-menu a { display: block; padding: .45rem 1.25rem; color: var(--gray-700); text-decoration: none; font-weight: 500; }
+.drop-menu a:hover { color: var(--cyan-text); background: var(--gray-50); }
+
+/* ===== Botón secundario ===== */
+.btn-outline { background: #fff; color: var(--cyan-text); border: 2px solid var(--cyan-dark); }
+.btn-outline:hover { color: #155e75; }
+.card-body .btn + .btn { margin-top: .5rem; }
+
+/* ===== Páginas de servicio ===== */
+.service-page { padding-top: 7rem; }
+.breadcrumbs { font-size: .9rem; color: var(--gray-600); margin-bottom: 1.5rem; }
+.breadcrumbs a { text-decoration: none; }
+.service-content h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); color: var(--gray-800); line-height: 1.2; margin: 0 0 1rem; }
+.service-intro { font-size: 1.15rem; color: var(--gray-600); }
+.service-hero-img { margin: 2rem 0; }
+.service-hero-img img { border-radius: var(--radius); box-shadow: var(--shadow-lg); width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.service-content h2 { color: var(--gray-800); font-size: 1.5rem; margin: 2.5rem 0 .75rem; }
+.service-content section > p, .service-content section li { color: var(--gray-700); }
+.service-content .cta-banner { margin-top: 3rem; }
+.related-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.related-grid a {
+  background: #fff; border-radius: 1rem; padding: 1rem 1.25rem;
+  box-shadow: var(--shadow); text-decoration: none; color: var(--gray-800); font-weight: 600;
+}
+.related-grid a:hover { color: var(--cyan-text); }
+.mobile-nav .btn { margin-top: .5rem; }
